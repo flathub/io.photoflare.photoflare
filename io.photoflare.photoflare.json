@@ -50,12 +50,8 @@
         {
           "type": "git",
           "url": "https://github.com/PhotoFlare/photoflare.git",
-          "tag": "v1.6.2",
-          "commit": "b30cb87f61303ee78d6441b60f45dad70d1363f9"
-        },
-        {
-          "type": "patch",
-          "path": "oars-appdata.patch"
+          "tag": "v1.6.3",
+          "commit": "562d744a5001b1e4b59cb255c8d5fdc324742543"
         }
       ]
     }
