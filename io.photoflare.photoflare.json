@@ -50,8 +50,8 @@
         {
           "type": "git",
           "url": "https://github.com/PhotoFlare/photoflare.git",
-          "tag": "v1.6.7",
-          "commit": "6e090aa4a651092456b688a9c45adbfcda6a2e6d"
+          "tag": "v1.6.9",
+          "commit": "c6bbfaa4c9cc19c7968c18cbeeebc3678ec244a9"
         }
       ]
     }
