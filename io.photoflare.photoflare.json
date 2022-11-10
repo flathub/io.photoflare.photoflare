@@ -1,7 +1,7 @@
 {
   "app-id": "io.photoflare.photoflare",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
+  "runtime-version": "5.15-22.08",
   "sdk": "org.kde.Sdk",
   "command": "photoflare",
   "rename-desktop-file": "photoflare.desktop",
@@ -9,7 +9,7 @@
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc",
-    "--socket=x11",
+    "--socket=fallback-x11",
     /* Wayland */
     "--socket=wayland",
     "--device=dri",
@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.34/GraphicsMagick-1.3.34.tar.xz",
-          "sha256": "df009d5173ed0d6a0c6457234256c5a8aeaace782afa1cbab015d5a12bd4f7a4"
+          "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.38/GraphicsMagick-1.3.38.tar.xz",
+          "sha256": "d60cd9db59351d2b9cb19beb443170acaa28f073d13d258f67b3627635e32675"
         }
       ]
     },
@@ -50,8 +50,8 @@
         {
           "type": "git",
           "url": "https://github.com/PhotoFlare/photoflare.git",
-          "tag": "v1.6.10",
-          "commit": "5e60897ef1c98e1edcbb5823e2cbd2a328120ec8"
+          "tag": "v1.6.11",
+          "commit": "cea51227182d8016ba15fe9d889ff2bb78aa7b45"
         }
       ]
     }
