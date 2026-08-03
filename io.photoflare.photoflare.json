@@ -53,8 +53,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/PhotoFlare/photoflare.git",
-                    "tag": "v1.7.3",
-                    "commit": "98002b4c7ecd295828ff010e25a2b6efa834991a",
+                    "tag": "v1.7.4",
+                    "commit": "132ddbd6ddf3095ac731687ad55c6c4f3a3a01ac",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
